@@ -1,3 +1,5 @@
+image: gitpod/workspace-full:2022-03-22-23-33-48
+
 ports:
   - port: 5000
     onOpen: open-preview
