@@ -5,6 +5,8 @@ image: axonasif/workspace-python@sha256:f5ba627a31505ea6cf100abe8e552d7ff9e0abd6
 tasks:
   - name: Init project and run server
     init: |
+      echo "1"
+
       PROJECT_NAME="flaskr"
 
       if test ! -e "${PROJECT_NAME}"; then {
