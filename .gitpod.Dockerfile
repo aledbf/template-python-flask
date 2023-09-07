@@ -1,3 +1,3 @@
 FROM gitpod/workspace-python
 
-ARG BUILD=24
+ARG BUILD=25
